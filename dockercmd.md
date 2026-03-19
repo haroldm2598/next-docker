@@ -6,6 +6,11 @@ docker build -t fileName .
 
 docker run -p 3000:3000 crm-docker
 
+<!-- if somethings change in the file or modified -->
+<!-- but too much complex and writing -->
+
+docker run -p 3000:3000 -v "$(pwd):/app" -v /app/node_modules crm-docker
+
 <!-- if you want to see all container -->
 
 docker ps -a
