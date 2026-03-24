@@ -26,3 +26,7 @@ docker container prune
 <!-- if you want to delete or force stop delete while running -->
 
 docker rm containerName --force
+
+<!-- if you want to upload image into docker hub -->
+
+docker tag filename username/filename
