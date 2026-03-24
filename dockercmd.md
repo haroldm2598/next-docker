@@ -30,3 +30,4 @@ docker rm containerName --force
 <!-- if you want to upload image into docker hub -->
 
 docker tag filename username/filename
+docker push username/filename
