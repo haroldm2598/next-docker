@@ -31,3 +31,7 @@ docker rm containerName --force
 
 docker tag filename username/filename
 docker push username/filename
+
+<!-- if you want not manually but automatic like npm init -->
+
+docker init
