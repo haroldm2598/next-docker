@@ -35,3 +35,8 @@ docker push username/filename
 <!-- if you want not manually but automatic like npm init -->
 
 docker init
+docker compose up
+
+<!-- after editing the compose.yaml in order to keep updated -->
+
+docker compose watch
